@@ -3,8 +3,8 @@
         include "arraylist.php";
         asort($topfilm);
 
-        foreach(array_keys($topfilm) as $key) {
-            echo "<h4><option> $key <br></option></h4>";
+        foreach($topfilm as $key) {
+            echo "<h4><option>" . $key['name'] . "<br></option></h4>";
         }
     }
 ?>
