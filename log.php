@@ -1,4 +1,8 @@
 <?php
-    const logo = "<h2>🐱‍👤Production</h2>"; 
-    echo logo;
+
+    if (!defined('pageTitle')) define("pageTitle", "🐱‍👤ProductionZ");
+    $pageName = pageTitle;
+    if(isset($pageName)){
+        echo "<h2>".$pageName."</h2>";
+    }
 ?>

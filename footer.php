@@ -1,5 +1,7 @@
 <footer>
     <div class="downUnder">
-        <h2>EpicMovie</h2>
+        <?php
+            include "log.php";
+        ?>
     </div>
 </footer>
